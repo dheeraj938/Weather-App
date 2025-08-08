@@ -55,7 +55,7 @@ Error handling (e.g. city not found)
 
 🧪 To Run Locally
 
-git clone https://github.com/your-username/weather-app.git
+git clone https://github.com/dheeraj938/weather-app.git
 cd weather-app
 npm install
 npm start
