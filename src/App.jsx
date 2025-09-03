@@ -13,7 +13,7 @@ import axios from "axios";
   const[windSpeed,setWindSpeed]=useState(null)
   const[cityName,setcityName]=useState("")
   const[weather,setWeather]=useState("01d")
-  const API_KEY ="72941418780eaae73888f2ef1e7e2e10"
+   const API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
   const fecthweather=async()=>{
     if(!Search) return;
     setloading(true)
